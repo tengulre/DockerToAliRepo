@@ -18,4 +18,5 @@
 ghcr.io/ollama-webui/ollama-webui:main
 python:3.9-slim
 nginx:stable-alpine
+node:16
 
