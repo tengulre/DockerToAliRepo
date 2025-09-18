@@ -1,6 +1,6 @@
 #redis:7.4.1
 #nginx:1.27.2
-#mysql:8.4.3
+mysql:8.4.3
 #nacos/nacos-server:v2.4.3
 #redis
 #ghcr.io/sozercan/llama3.1:8b
@@ -19,4 +19,4 @@ ghcr.io/ollama-webui/ollama-webui:main
 python:3.9-slim
 nginx:stable-alpine
 node:16
-
+redis:latest
