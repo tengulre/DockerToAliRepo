@@ -15,8 +15,9 @@ mysql:8.4.3
 #tiangolo/nginx-rtmp
 #python:3.9-slim
 #ollama/ollama
-ghcr.io/ollama-webui/ollama-webui:main
-python:3.9-slim
-nginx:stable-alpine
-node:16
-redis:latest
+#ghcr.io/ollama-webui/ollama-webui:main
+#python:3.9-slim
+#nginx:stable-alpine
+#node:16
+#redis:latest
+alpine:latest
