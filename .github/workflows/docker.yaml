@@ -12,6 +12,9 @@ env:
   ALIYUN_REGISTRY_USER: "${{ secrets.ALIYUN_REGISTRY_USER }}"
   ALIYUN_REGISTRY_PASSWORD: "${{ secrets.ALIYUN_REGISTRY_PASSWORD }}"
 
+  DOCKER_LOGIN_USER: "${{ secrets.DOCKER_LOGIN_USER }}"
+  DOCKER_LOGIN_PASS: "${{ secrets.DOCKER_LOGIN_PASS }}"
+  
 jobs:
 
   build:
@@ -67,7 +70,7 @@ jobs:
             fi       
         done < images.txt
         
-        
+        docker login -u $DOCKER_LOGIN_USER -p $DOCKER_LOGIN_PASS
         while IFS= read -r line; do
             # 忽略空行与注释
             [[ -z "$line" ]] && continue
