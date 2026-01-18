@@ -24,7 +24,7 @@
 #nginx:alpine
 #node:18-alpine
 python:3.11-slim
-node:20-alphine
+node:20-alpine
 #alpine:3.18
 #debian:bullseye-slim
 #---------dify install------
