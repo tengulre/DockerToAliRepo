@@ -23,7 +23,8 @@
 #alpine:latest
 #nginx:alpine
 #node:18-alpine
-alpine:3.18
+#alpine:3.18
+debian:bullseye-slim
 #---------dify install------
 #langgenius/dify-api:1.10.1
 #langgenius/dify-api:1.10.1
