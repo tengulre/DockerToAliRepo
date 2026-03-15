@@ -21,7 +21,7 @@
 #node:16
 #redis:latest
 #alpine:latest
-#nginx:alpine
+nginx:alpine
 #node:18-alpine
 #python:3.11-slim
 #node:20-alpine
